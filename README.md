@@ -168,3 +168,19 @@ Biblioteca para testes do saga
 ```bash
 yarn add redux-saga-tester -D
 ```
+
+### AXIOS-MOCK-ADAPTER
+
+Biblioteca para testes do axios
+
+```bash
+yarn add axios-mock-adapter -D
+```
+
+# NOTA IMPORTANTE
+
+Ao terminar de implementar os testes, podemos verificar a cobertura dos mesmos utilizando o coverage:
+
+```bash
+yarn test --coverage
+```

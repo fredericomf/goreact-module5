@@ -8,10 +8,7 @@
 const localStorageMock = {
   getItem: jest.fn(),
   setItem: jest.fn(),
-  clear: jest.fn(),
-  teste: () => {
-    console.log("teste");
-  }
+  clear: jest.fn()
 };
 
 // NOTA_ESTUDO: Isso aqui não funciona mais. Procurando no goole encontrei a resposta em: https://stackoverflow.com/a/35769110/10824019

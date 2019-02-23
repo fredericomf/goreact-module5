@@ -126,5 +126,45 @@ yarn test
 É um biblioteca que permite manipularmos funções do nosso código
 
 ```bash
-yarn add sinon
+yarn add sinon -D
+```
+
+### REDUX REACT-REDUX
+
+Ferramenta para trabalhar com o fluxo de estados dos componentes
+
+```bash
+yarn add redux react-redux
+```
+
+### REDUX-MOCK-STORE
+
+Plugin para mock do redux (usado só para testes em ambiente de desenvolvimento)
+
+```bash
+yarn add redux-mock-store -D
+```
+
+### REDUX-SAGA
+
+É um middleware que fica entre a action e o reducer.
+
+```bash
+yarn add redux-saga
+```
+
+### AXIOS
+
+Biblioteca para fazer chamadas ajax
+
+```bash
+yarn add axios
+```
+
+### REDUX-SAGA-TESTER
+
+Biblioteca para testes do saga
+
+```bash
+yarn add redux-saga-tester -D
 ```
